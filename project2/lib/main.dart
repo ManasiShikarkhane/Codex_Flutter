@@ -3,6 +3,8 @@ import 'package:project2/Ass1.dart';
 import 'package:project2/Ass2.dart';
 import 'package:project2/Ass3.dart';
 import 'package:project2/Ass4.dart';
+import 'package:project2/Ass5.dart';
+import 'package:project2/Ass6.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Ass3(),
+      home: Ass6(),
     );
   }
 }
